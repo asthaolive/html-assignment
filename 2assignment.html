@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hot Balloon Riding Event | Xena Events</title>
+    <link rel="stylesheet" href="./CSS/style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="head">
+        <img src="./Images/logo.png" alt="" id="logo" />
+        <h1><span id="Light">Xena</span>Events</h1>
+      </div>
+    </header>
+    <section>
+      <div id="balloon">
+        <img src="./Images/balloon.png" alt="" />
+      </div>
+      <div id="form">
+        <br />
+        <h2>About the Event</h2>
+        <br /><br />
+        <p>
+          Xena Events is conducting a hot balloon riding event from
+          <span id="heavy">Feb 28th 2017</span> to
+          <span id="heavy">Mar 03rd 2017.</span> <br />
+          Don't miss the chance, register for the event today! <br />
+        </p>
+        <br />
+        <form action="" method="GET">
+          <label for="Name">Name: </label>
+          <input type="name" id="Name" pattern="[A-Za-z]{4,}" required /><br />
+          <label for="age">Age: </label>
+          <input type="number" name="" id="age" min="18" required /><br />
+          <label for="email">Email: </label>
+          <input type="email" name="" id="email" required /><br />
+          <label for="city">City: </label>
+          <input type="text" list="cities" id="city" required /><br />
+          <datalist id="cities">
+            <option value="Rajkot"> </option>
+            <option value="Vizag"> </option>
+            <option value="Bangalore"> </option>
+          </datalist><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
